@@ -129,30 +129,6 @@ Compilation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/build
 .PHONY : Compilation/fast
 
-image.o: image.cpp.o
-.PHONY : image.o
-
-# target to build an object file
-image.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/image.cpp.o
-.PHONY : image.cpp.o
-
-image.i: image.cpp.i
-.PHONY : image.i
-
-# target to preprocess a source file
-image.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/image.cpp.i
-.PHONY : image.cpp.i
-
-image.s: image.cpp.s
-.PHONY : image.s
-
-# target to generate assembly for a file
-image.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/image.cpp.s
-.PHONY : image.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -186,9 +162,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Compilation"
-	@echo "... image.o"
-	@echo "... image.i"
-	@echo "... image.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -7,10 +7,10 @@
 #IncludeRegexTransform: 
 
 /home/ollguardner/Documents/CLion/RayaT/main.cpp
+SFML/Graphics.hpp
+-
 iostream
 -
-SFML/System.hpp
--
-SFML/Graphics.hpp
+math.h
 -
 

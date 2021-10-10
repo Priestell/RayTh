@@ -4,7 +4,7 @@ project(RayaT)
 set(CMAKE_CXX_STANDARD 17)
 
 set(EXECUTABLE_NAME "Compilation")
-add_executable(${EXECUTABLE_NAME} main.cpp image.cpp)
+add_executable(${EXECUTABLE_NAME} main.cpp)
 
 set(SFML_DIR "/home/ollguardner/Documents/SFML_Compiled")
 set(CMAKE_MODULE_PATH "/home/ollguardner/Documents/CLion/RayaT/Cmake" ${CMAKE_MODULE_PATH})
