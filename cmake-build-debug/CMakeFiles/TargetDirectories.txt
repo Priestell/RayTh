@@ -1,0 +1,3 @@
+/home/ollguardner/Documents/CLion/RayaT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ollguardner/Documents/CLion/RayaT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ollguardner/Documents/CLion/RayaT/cmake-build-debug/CMakeFiles/Compilation.dir

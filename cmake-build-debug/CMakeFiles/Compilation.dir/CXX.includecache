@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ollguardner/Documents/CLion/RayaT/main.cpp
+iostream
+-
+SFML/System.hpp
+-
+SFML/Graphics.hpp
+-
+
