@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/ollguardner/Documents/CLion/RayaT/Includes/game.h
+SFML/Graphics.hpp
+-
+
+/home/ollguardner/Documents/CLion/RayaT/game.cpp
+Includes/game.h
+/home/ollguardner/Documents/CLion/RayaT/Includes/game.h
+
 /home/ollguardner/Documents/CLion/RayaT/main.cpp
 SFML/Graphics.hpp
 -
 iostream
 -
-math.h
--
+Includes/game.h
+/home/ollguardner/Documents/CLion/RayaT/Includes/game.h
 

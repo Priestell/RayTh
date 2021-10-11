@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/ollguardner/Documents/CLion/RayaT/Includes/Splashscreen.h">
+			<Option target="Compilation"/>
+		</Unit>
+		<Unit filename="/home/ollguardner/Documents/CLion/RayaT/Includes/game.h">
+			<Option target="Compilation"/>
+		</Unit>
+		<Unit filename="/home/ollguardner/Documents/CLion/RayaT/game.cpp">
+			<Option target="Compilation"/>
+		</Unit>
 		<Unit filename="/home/ollguardner/Documents/CLion/RayaT/main.cpp">
 			<Option target="Compilation"/>
 		</Unit>
