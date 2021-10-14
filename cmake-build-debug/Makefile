@@ -129,6 +129,54 @@ Compilation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/build
 .PHONY : Compilation/fast
 
+MainMenu.o: MainMenu.cpp.o
+.PHONY : MainMenu.o
+
+# target to build an object file
+MainMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/MainMenu.cpp.o
+.PHONY : MainMenu.cpp.o
+
+MainMenu.i: MainMenu.cpp.i
+.PHONY : MainMenu.i
+
+# target to preprocess a source file
+MainMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/MainMenu.cpp.i
+.PHONY : MainMenu.cpp.i
+
+MainMenu.s: MainMenu.cpp.s
+.PHONY : MainMenu.s
+
+# target to generate assembly for a file
+MainMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/MainMenu.cpp.s
+.PHONY : MainMenu.cpp.s
+
+Splashscreen.o: Splashscreen.cpp.o
+.PHONY : Splashscreen.o
+
+# target to build an object file
+Splashscreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/Splashscreen.cpp.o
+.PHONY : Splashscreen.cpp.o
+
+Splashscreen.i: Splashscreen.cpp.i
+.PHONY : Splashscreen.i
+
+# target to preprocess a source file
+Splashscreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/Splashscreen.cpp.i
+.PHONY : Splashscreen.cpp.i
+
+Splashscreen.s: Splashscreen.cpp.s
+.PHONY : Splashscreen.s
+
+# target to generate assembly for a file
+Splashscreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compilation.dir/build.make CMakeFiles/Compilation.dir/Splashscreen.cpp.s
+.PHONY : Splashscreen.cpp.s
+
 game.o: game.cpp.o
 .PHONY : game.o
 
@@ -186,6 +234,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Compilation"
+	@echo "... MainMenu.o"
+	@echo "... MainMenu.i"
+	@echo "... MainMenu.s"
+	@echo "... Splashscreen.o"
+	@echo "... Splashscreen.i"
+	@echo "... Splashscreen.s"
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"

@@ -14,7 +14,8 @@ public:
 private:
     static bool isExisting();
     static void gameLoop();
-
+    static void ShowSplashScreen();
+    static void ShowMenu();
 
     enum GameState{Unintialized, showingSplash, Paused, showingMenu, playing,
             existing };

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Compilation.dir/MainMenu.cpp.o"
+  "CMakeFiles/Compilation.dir/Splashscreen.cpp.o"
   "CMakeFiles/Compilation.dir/game.cpp.o"
   "CMakeFiles/Compilation.dir/main.cpp.o"
   "Compilation"

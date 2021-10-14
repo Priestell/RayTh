@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/ollguardner/Documents/CLion/RayaT/Includes/game.h
+/home/ollguardner/Documents/CLion/RayaT/Includes/MainMenu.h
+SFML/Window.hpp
+/home/ollguardner/Documents/CLion/RayaT/Includes/SFML/Window.hpp
 SFML/Graphics.hpp
+/home/ollguardner/Documents/CLion/RayaT/Includes/SFML/Graphics.hpp
+list
 -
 
-/home/ollguardner/Documents/CLion/RayaT/game.cpp
-Includes/game.h
-/home/ollguardner/Documents/CLion/RayaT/Includes/game.h
-
-/home/ollguardner/Documents/CLion/RayaT/main.cpp
-SFML/Graphics.hpp
--
-iostream
--
-Includes/game.h
-/home/ollguardner/Documents/CLion/RayaT/Includes/game.h
+/home/ollguardner/Documents/CLion/RayaT/MainMenu.cpp
+Includes/MainMenu.h
+/home/ollguardner/Documents/CLion/RayaT/Includes/MainMenu.h
 
